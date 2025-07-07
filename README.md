@@ -3,6 +3,8 @@ To run the backend : JAVA
      mvn clean install 
      mvn spring-boot:run
 
+As I used Spring Initializer to install the dependancies accordingly the backend code is inside src folder.
+
 API's are tested :  I have a little trouble in Using Isomnia 
 
 tested using Curl 
