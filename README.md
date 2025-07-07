@@ -1,5 +1,5 @@
-To run the backend :
-
+To run the backend : JAVA 
+ 
      mvn clean install 
      mvn spring-boot:run
 
@@ -29,4 +29,4 @@ C:\Windows\System32>curl -v http://localhost:4567/mycode123
 <
 * Connection #0 to host localhost left intact
 
-C:\Windows\System32>
+
