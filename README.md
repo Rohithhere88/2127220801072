@@ -7,17 +7,6 @@ API's are tested :  I have a little trouble in Using Isomnia
 
 tested using Curl 
 
-Microsoft Windows [Version 10.0.22631.5335]
-(c) Microsoft Corporation. All rights reserved.
-
-C:\Windows\System32>curl -X POST http://localhost:4567/shorten \  -H "Content-Type: application/json" \  -d '{"longUrl":"https://www.google.com","customCode":"mycode123","validityMinutes":10}'
-<html><body><h2>500 Internal Server Error</h2></body></html>curl: (3) URL rejected: Bad hostname
-curl: (3) URL rejected: Bad hostname
-
-C:\Windows\System32>curl -X POST http://localhost:4567/shorten \  -H "Content-Type: application/json" \  -d '{"longUrl":"https://www.google.com","customCode":"mycode123","validityMinutes":10}'
-<html><body><h2>500 Internal Server Error</h2></body></html>curl: (3) URL rejected: Bad hostname
-curl: (3) URL rejected: Bad hostname
-
 C:\Windows\System32>curl -X POST http://localhost:4567/shorten ^  -H "Content-Type: application/json" ^  -d "{\"longUrl\":\"https://www.google.com\",\"customCode\":\"mycode123\",\"validityMinutes\":10}"
 {"shortUrl":"http://localhost:4567/mycode123"}
 C:\Windows\System32>curl -v http://localhost:4567/mycode123
@@ -40,8 +29,4 @@ C:\Windows\System32>curl -v http://localhost:4567/mycode123
 <
 * Connection #0 to host localhost left intact
 
-
-
-
-
-
+C:\Windows\System32>
